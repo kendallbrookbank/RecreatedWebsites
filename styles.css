@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    font-family: '.SFNSText-Regular', sans-serif;
+    background-color: rgb(240, 240, 243);
+    display: block;
+    padding: 0px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    overflow-y: scroll;
+    direction: ltr;
+    line-height: 1.34;
+    border-color: #ccd0d5;
+    color: #4b4f56;
+}
+/*Beginning of navbar*/
+.navbar {
+    font-family: '.SFNSText-Regular', sans-serif;
+    position: relative;
+    width: 100%;
+    background-color: rgb(51, 74, 143);
+    height: 100px;
+    color: white;
+}
+.title { /*Facebook*/
+    position: relative;
+    left: 60px;
+    top: 25px;
+    color: white;
+    font-size: 35px;
+    width: 100%;
+}
+.email { 
+    position: relative;
+    left: 553px;
+    color: white;
+}
+.password {
+    position: relative;
+    left: 670px;
+    color: white;
+}
+.ine { /*email input*/
+    position: relative;
+    left: 700px;
+}
+.inp { /*password input*/
+    position: relative;
+    left: 750px;
+}
+.myButton { /*log in button*/
+    position: relative;
+    left: 780px;
+    color:white;
+}
+.fpass { /*forgot password*/
+    text-decoration: underline;
+    position: relative;
+    left: 905px;
+    font-size: 12px;
+    color:white;
+}
+
+/* end of nav bar*/
+
+.maintext {
+    float: left;
+    padding: 15px;
+    font-size: 20px;
+    margin: 20px;
+    position: relative;
+    top: 60px;
+}
+.createform {
+    position: relative;
+    left: 40px;
+    top: 10px;
+    text-align: center;
+    min-width: 300px;
+    float: left;
+    padding: 20px;
+}
+.fname {
+    position: relative;
+    left: -50px;
+    padding: 7px;
+    margin: 1px;
+    border-color: aliceblue;
+    width: 200px;
+    text-align: left;
+}
+.mobile {
+    position: sticky;
+    left: -18px;
+    padding: 10px;
+    margin: 1px;
+    width: 200px;
+    border-color: aliceblue;
+}
+.signup {  /*submit button*/
+     width: 100px; 
+     height: 30px;
+     position: relative;
+     left: -140px;
+     top: 40px;
+}
+footer {
+    display: inline;
+    margin: 800px;
+    padding: 40px;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+}
+.ul {
+    display: inline-flex;
+    text-decoration:none;
+    padding: 60px;
+    text-align: center;
+}
