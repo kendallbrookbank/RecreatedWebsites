@@ -4,32 +4,68 @@
     <meta charset="UTF-8">
     <title>Google</title>
     <style>
-    :root {
-    --blue:#2980B9;
-    --red:#D52D01;
-    --yellow:#FFC300;
-    --green:#019227;
-    --lightgrey:#E0E0E0;
-    --grey:#9C9B9B;
-}
-
-html, body {
+   html {
+    font-family: Arial, sans-serif;
     background-color: #fff;
     color: #222;
     font-family: arial, Sans-Serif;
     text-align: center;
-    margin: 0;
     height: 100%;
     display: block;
 }
-.search {
-    border: 0.5 solid grey;
+
+body {
+    background-color: #fff;
+    color: #222;
+    font-family: arial, Sans-Serif;
+    text-align: center;
+    margin: 80px;
+    height: 100%;
+    display: block;
+}
+.nav-left {
+    display: inline;
+    float:left;
+    color:rgb(73, 73, 73);
+    word-spacing: 6px;
+    font-size: 13px;
+    margin:-60px;
+    padding: 10px;
+}
+.nav-right {
+    display: inline;
+    float:right;
+    color:rgb(73, 73, 73);
+    word-spacing: 6px;
+    font-size: 13px;
+    margin: -60px;
+    padding: 15px;
+
+}
+.container {
+    font-family: 'Futura';
+    margin: 60px;
+    font-size: 80px;
+    text-align: center;
+    word-spacing: -35px;
+    padding: 10px;
+}
+.searchbar {
+    border: 0.1px solid rgb(194, 192, 192);
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
 }
 .searchbtn {
     background-color: ;
     color:grey;
     border:none;
-    width: 80px;
+    width: 130px;
+    height: 40px;
+    margin: 20px;
+}
+.searchbtn:hover {
+    border: 1px solid gray;
 }
 .luckybtn {
     background-color: ;
@@ -37,36 +73,79 @@ html, body {
     border: none;
     width: 80px;
 }
-.footer {
+.luckybtn:hover {
+    border: 1px solid gray;
+}
+.fbar {
+    position: absolute;
+    top: -1000px;
     bottom: 0;
-    color: grey;
-    font-size: 10px;
-    height: 105px;
+    display: inline-block;
+    background-color:rgb(194, 192, 192)
+    color:rgb(73, 73, 73);
+    font-size: 15px;
+    height: 20px;
     width: 100%;
 }
+.fbar:hover{
+    text-decoration: underline;
+}
+.footer-left {
+    position: relative;
+    bottom: 0;
+    word-spacing: 10px;
+    float: left;
+    background-color:rgb(194, 192, 192)
+    color:rgb(73, 73, 73);
+    font-size: 15px;
+    height: 20px;
+}
+
+.footer-right {
+    position: relative;
+    bottom: 0;
+    word-spacing: 10px;
+    float: right;
+    background-color:rgb(194, 192, 192)
+    color:rgb(73, 73, 73);
+    font-size: 15px;
+    height: 20px;
+}
     </style>
+    <div class="nav-left">
+        <span>About</span>
+        <span>Store</span>
+    </div>
+    <div class="nav-right">
+        <span>Gmail</span>
+        <span>Images</span>
+    </div>
 </head>
+<br><br><br>
 <body>
-    <p>
+    <div class="container" id="logo">
     <span style="color: #4285f4">G</span>
     <span style="color: #ea4335">o</span>
     <span style="color: #fbbc05">o</span>
     <span style="color: #4285f4">g</span>
     <span style="color: #34a853">l</span>
     <span style="color: #ea4335">e</span>
-    </p>
+    </div>
 <input type="search" class="searchbar">
 <button class="searchbtn">Google Search</button><br>
 <button class="luckybtn">I'm Feeling Lucky</button>
 </body>
+    <br><br><br><br><br><br><br><br><br><br><br>
 <footer>
-    <ul>
-        <li>Privacy</li>
-        <li>Terms</li>
-        <li>Settings</li>
-        <li>Advertising</li>
-        <li>Business</li>
-        <li>How Search Works</li>
-    </ul>
+  <div class="footer-right" id="fbar">
+    <span>Privacy</span>
+    <span>Terms</span>
+    <span>Settings</span>
+</div>
+<div class="footer-left" id="fbar">
+    <span>Advertising</span>
+    <span>Business</span>
+    <span>How Search Works</span>
+</div>
 </footer>
 </html>
